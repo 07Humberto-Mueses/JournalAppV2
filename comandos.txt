@@ -1,0 +1,9 @@
+Se instala Redux en el proyecto para poder usar
+
+--> yarn add @reduxjs/toolkit react-redux
+
+para el backend se usa Firebase
+creando una proyecto en la pagina oficial 
+https://console.firebase.google.com/?hl=es-419&pli=1
+Luego de crear el proyecto hay que instalar esta dependencia
+--> yarn add Firebase
