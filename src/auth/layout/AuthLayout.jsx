@@ -9,17 +9,16 @@ export const AuthLayout = ({ children, title = '' }) => {
       //direction="column"
       alignItems="center"
       justifyContent="center"
-      color="#E9BCB9"
       sx={{
         '& .MuiInputBase-input': {
-          color: '#E9BCB9',
+          color: 'primary.main',
         },
-      '& .MuiInputLabel-root': {
-        color: '#E9BCB9', // Color del label inicial
-      },
-      '& .Mui-focused': {
-        color: '#E9BCB9',
-      },
+        '& .MuiInputLabel-root': {
+          color: 'primary.main',
+        },
+        '& .Mui-focused': {
+          color: 'primary.main',
+        },
         minHeight: '100vh',
         backgroundColor: 'primary.main', 
         padding: 4
@@ -30,8 +29,8 @@ export const AuthLayout = ({ children, title = '' }) => {
         xs={8}
         sx={{
           width: { md: 550 },
-          backgroundColor: '#1B1931',
-          color: '#E9BCB9',
+          backgroundColor: 'secondary.main',
+          color: 'primary.main',
           padding: 6,
           borderRadius: 5
         }}>

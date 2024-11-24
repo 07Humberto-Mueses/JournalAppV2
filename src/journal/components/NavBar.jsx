@@ -4,6 +4,7 @@ import { LogoutOutlined, MenuOutlined } from "@mui/icons-material";
 export const NavBar = ({ drawerWidth }) => {
   return (
     <AppBar 
+        color="secondary"
         position='fixed'
         sx={{
            width: { sm: `calc(100% - ${ drawerWidth }px)`},
@@ -19,9 +20,10 @@ export const NavBar = ({ drawerWidth }) => {
                 <MenuOutlined />
             </IconButton>
 
-            <Grid2 container 
-                   direction='row'
-                   sx={{
+            <Grid2 
+                  container 
+                  direction='row'
+                  sx={{
                     justifyContent: "space-between",
                     alignItems: "center",
                   }}>

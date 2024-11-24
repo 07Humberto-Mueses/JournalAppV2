@@ -95,7 +95,7 @@ export const RegisterPage = () => {
                     <Button 
                       type='submit'
                       variant="contained" 
-                      color='secondary'
+                      color='general'
                       fullWidth
                       sx={{
                         borderRadius: '10px',
@@ -108,7 +108,7 @@ export const RegisterPage = () => {
                         },
                       }}
                       >
-                      Crear Cuenta
+                      <Typography variant='button' sx={{ ml: 1, color:'#031716', fontSize:'18px' }} > Crear Cuenta </Typography>
                     </Button>
                   </Grid2>
                   

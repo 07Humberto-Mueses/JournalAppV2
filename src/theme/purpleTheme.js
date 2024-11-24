@@ -5,19 +5,17 @@ import { red } from "@mui/material/colors";
 export const purpleTheme = createTheme({
     palette:{
         primary:{
-            main: '#E9BCB9'
+            main: '#6BA3BE'
         },
         secondary:{
-            main: '#662249'
+            main: '#032F30'
+        },
+        general:{
+            main: '#0C969C'
         },
         error:{
-            main: red.A400
+            main: '#B4182D'
         }
 
     }
 })
-
-// morado oscuro #1B1931
-// morado #662249
-// crema o blanco #E9BCB9
-

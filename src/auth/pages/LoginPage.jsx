@@ -67,7 +67,7 @@ export const LoginPage = () => {
               disabled={isAuthenticating}
               type="submit"
               variant="contained"
-              color='secondary'
+              color='general'
               fullWidth
               sx={{
                 borderRadius: '10px',
@@ -80,14 +80,14 @@ export const LoginPage = () => {
                 },
               }}
               >
-              Login
+              <Typography variant='button' sx={{ ml: 1, color:'#031716', fontSize:'18px' }} > Login </Typography>
             </Button>
           </Grid2>
           <Grid2 size={{ xs: 12, md: 6 }}>
             <Button
               disabled={isAuthenticating}
               variant="contained"
-              color='secondary'
+              color='general'
               fullWidth
               sx={{
                 borderRadius: '10px',
@@ -100,8 +100,8 @@ export const LoginPage = () => {
                 },
               }}
               onClick={onGoogleSignIn}>
-              <Google />
-              <Typography sx={{ ml: 1 }}> Google </Typography>
+              <Google variant />
+              <Typography variant='button' sx={{ ml: 1, color:'#031716', fontSize:'18px' }} > Google </Typography>
             </Button>
           </Grid2>
 
